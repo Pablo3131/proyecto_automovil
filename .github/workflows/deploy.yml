@@ -19,7 +19,8 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v3  
         with:
-          node-version: 20  # ?? Cambiamos de Node.js 16 a Node.js 18 para tener structuredClone
+          node-version: 20.19.0'
+          cache: 'npm'  # ?? Cambiamos de Node.js 16 a Node.js 18 para tener structuredClone
 
       # Paso 3 - Instalar dependencias
       - name: Install dependencies
