@@ -1,0 +1,49 @@
+/* index.css */
+
+.carrito {
+    position: relative; /* Agregar posicionamiento relativo al contenedor del carrito */
+    width: 4rem; /* Reducir el tamaño del carrito */
+  }
+  
+  .carrito-content {
+    width: 40rem; /* Cambiar el ancho del contenedor del contenido del carrito según tus necesidades */
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0.5rem;
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  
+  .carrito-container:hover .carrito-content {
+    display: block; /* Muestra el contenido del carrito al pasar el mouse sobre el contenedor del carrito */
+  }
+  
+  .carrito-content img {
+    width: 60%; /* Reducir el tamaño de la imagen en el contenido del carrito en un 80% */
+  }
+
+  .imagen-automovil {
+    max-width: 100px; /* Establece el ancho máximo deseado para la imagen */
+    width: auto; /* Permite que la imagen mantenga su relación de aspecto original */
+  }
+  .img-fluid {
+    width: 80%; /* Cambiar el tamaño del logo */
+  }
+
+  
+  
+  .header {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/img/header.jpg");
+    background-position: center; /*estaba en 50%*/
+    background-size: cover;
+    position: fixed;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+  }
